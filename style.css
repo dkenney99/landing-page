@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  height: 60px;
+  height: 5vh;
   background-color: #1f2937;
   color: white;
   display: flex;
@@ -34,7 +34,7 @@ a {
 }
 
 .main1 {
-  height: 350px;
+  height: 30vh;
   background-color: #1f2937;
   color: white;
   display: flex;
@@ -71,7 +71,7 @@ a {
 }
 
 .main2 {
-  height: 350px;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -108,7 +108,7 @@ a {
 }
 
 .main3 {
-  height: 350px;
+  height: 30vh;
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -130,7 +130,7 @@ a {
 }
 
 .main4 {
-  height: 350px;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +155,7 @@ a {
 .footer {
   background-color: #1f2937;
   color: white;
-  height: 75px;
+  height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
