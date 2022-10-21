@@ -1,4 +1,162 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  height: 60px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-left: 125px;
+}
+
+.right-header {
+  margin-right: 125px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.header-link {
+  margin: 8px;
+}
+
+.main1 {
+  height: 350px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main1-header-left {
+  margin-left: 125px;
+}
+.main1-header-right {
+  margin-right: 125px;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: bolder;
+  width: 350px;
+}
+
+.subhero {
+  font-size: 18px;
+  width: 450px;
+}
+
+#first-button {
+  margin-top: 10px;
+  border: 1px solid white;
+  padding: 6px 20px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.main2 {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.info-image {
+  border: 2px solid #3882f6;
+  height: 125px;
+  width: 125px;
+  border-radius: 10px;
+}
+
+.card {
+  margin: 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  margin-top: 4px;
+  width: 150px;
+  font-size: 15px;
+  color: gray;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.main3 {
+  height: 350px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 700px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.subquote {
+  margin-right: 275px;
+  align-self: flex-end;
+}
+
+.main4 {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callbox {
+  background-color: #3882f6;
+  color: white;
+  width: 900px;
+  height: 125px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call {
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
